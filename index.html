@@ -7,11 +7,7 @@
   <body>
     <header class="page header">
       <nav class="navigation">
-       <ul>
-         <li class="navigation-header-logo">
-          <a class="header-logo" href="#"><img scr="img/logo.svg" width="139" height="70px" alt="Логотип сайта города Седона"></a>
-         </li>
-       </ul>
+       <img scr="" width="139" height="70" alt="Логотип сайта города Седона">
        <ul class="navigation-list">
         <li class="navigation-item">
          <a class="navigation-link" href="about.html">Главная</a>
@@ -46,14 +42,12 @@
           </a>
         </li>
        </ul>
-        <a class="header-button" href="#">ХОЧУ СЮДА!</button>
+        <button class="header-button">ХОЧУ СЮДА!</button>
       </nav>
     </header>
 
     <main class="main-index">
-      <h1 class="visually-hidden">
-        HTML Academy: Седона
-      </h1>
+      <h1 class="visually-hidden">HTML Academy: Седона</h1>
       <img class="image-main" src="" alt="Приветственная картинка города Седона с изображением панарамы города">
       
       <section class="caption">
@@ -65,14 +59,14 @@
         <ul class="reasons-list">
           <li class="reasons-item">
             <h3 class="reasons-title">Настоящий городок</h3>
-            <p class="reasons-description">&lowbar;&#8470;1&lowbar;</p>
+            <p class="reasons-description">&mdash;&#8470;1&mdash;</p>
             <p class="reasons-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </li>
         </ul>
         <img class="image-reasons-one" src="" alt="Терраса с видом на кафе и частично на горы">
       </section>
 
-      <section>
+      <section class="reasons">
         <ul class="reasons-list">
           <li class="reasons-item">
             <h3 class="reasons-title">Жильё</h3>
@@ -91,41 +85,83 @@
             <p class="reasons-description">Не только китайского, но и настоящего местного производства!</p>
           </li>
         </ul>
-      </section>
-
-      <section class="reasons">
         <img class="image-reasons-two" src="" alt="Каменный мост и виды на каньон">
         <ul class="reasons-list">
           <li class="reasons-item">
             <h3 class="reasons-title">Там есть мост дьявола</h3>
-            <p class="reasons-description">&lowbar;&#8470;2&lowbar;</p>
-            <p class="reasons-description"></p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <p class="reasons-description">&mdash;&#8470;2&mdash;</p>
+            <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </li>
+        </ul>
+        <ul class="reasons-list">
+          <li class="reasons-item">
+           <h3 class="reasons-title">Небольшая площадь</h3>
+           <p class="reasons-description">&mdash;&#8470;3&mdash;</p>
+           <p class="reasons-description">Все достопримечательности находятся очень близко</p>
+          </li>
+        </ul>
+        <ul class="reasons-list">
+          <li class="reasons-item">
+           <h3 class="reasons-title">Красивая дорога</h3>
+           <p class="reasons-description">&mdash;&#8470;4&mdash;</p>
+           <p class="reasons-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+        </ul>
+        <ul class="reasons-list">
+          <li class="reasons-item">
+           <h3 class="reasons-title">Мало туристов</h3>
+           <p class="reasons-description">&mdash;&#8470;5&mdash;</p>
+           <p class="reasons-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
         </ul>
       </section>
 
-      <section class="reasons"
-      <ul class="reasons-list">
-        <li class="reasons-item">
-          <h3 class="reasons-title">Небольшая площадь</h3>
-          <p class="reasons-description">&lowbar;&#8470;3&lowbar;</p>
-          <p class="reasons-description">Все достопримечательности находятся очень близко</p>
-        </li>
-      </ul><ul class="reasons-list">
-        <li class="reasons-item">
-          <h3 class="reasons-title">Красивая дорога</h3>
-          <p class="reasons-description">&lowbar;&#8470;4&lowbar;</p>
-          <p class="reasons-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-        </li>
-      </ul><ul class="reasons-list">
-        <li class="reasons-item">
-          <h3 class="reasons-title">Мало туристов</h3>
-          <p class="reasons-description">&lowbar;&#8470;5&lowbar;</p>
-          <p class="reasons-description">Большинство едет в Гранд Каньон и толпится там</p>
-        </li>
-      </ul>
+    <section class="caption">
+      <h2 class="caption-title">Заинтересовались?</h2>
+      <p class="caption-text-desk">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <button class="searche-hotel">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+    </section>
+
+    <section class="subscription">
+      <img class="image-subscription" src="" alt="Панарама города Седона">
+      <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+      <p class="subscription-text-desk">Только полезная информация и никакого спама, честное бойскаутское!</p>
+      <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+       <input class="field" placeholder="Ваш e-mail" type="email" name="ubscription-email" id="ubscription-email" required>
+       <button class="subscription-button" type="submit">ПОДПИСАТЬСЯ</button>
+      </form>
     </section>
     </main>
-  </body>
 
+    <footer class="page-footer">
+     <section class="social">
+      <h2 class="visually-hidden">Ссылки на социальные сети Вконтакте, телеграм и Ютуб</h2> 
+      <ul class="social-list">
+        <li class="social-item">
+          <a class="social-link" href="https://vk.com/htmlacademy"></a>
+        </li>
+      </ul>
+      <ul class="social-list">
+        <li class="social-item">
+          <a class="social-link" href="https://t.me/s/htmlacademy"></a>
+        </li>
+      </ul>
+      <ul class="social-list">
+        <li class="social-item">
+          <a class="social-link" href="https://www.youtube.com/channel/UChUxTMjJGo-JDRY8pNTGL2g"></a>
+        </li>
+      </ul>
+     </section>
+
+     <section class="contacts">
+      <h2 class="visually-hidden">Телефон</h2> 
+      <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+     </section>
+
+     <section class="logo-footer">
+      <h2 class="visually-hidden">Логотип академии HTML</h2> 
+      <img scr="" alt="Логотип академии HTML">
+     </section>
+    </footer>
+  </body>
 </html>
