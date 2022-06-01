@@ -73,3 +73,45 @@ body {
  .caption-text-desk {
   font-family: "PT Sans", sans-serif;
  }
+
+ .reasons-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+		}
+
+ .reasons-block reasons-left {
+  background-image: url("../images/sedona_city.jpg");
+ }
+
+ .reasons-description {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+ }
+
+ .reasons-subblock-house {
+  background-image: url("../images/icon_house.svg");
+  background-repeat: no-repeat;
+ }
+
+ .reasons-subblock-food {
+  background-image: url("../images/icon_food.svg");
+  background-repeat: no-repeat;
+ }
+
+ .reasons-subblock-gift {
+  background-image: url("../images/icon_gift.svg");
+  background-repeat: no-repeat;
+ }
+
+ .searche-hotel {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  position: absolute;
+  background: #756157;
+  border-radius: 4px;
+ }
+
