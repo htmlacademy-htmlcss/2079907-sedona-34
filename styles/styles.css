@@ -29,3 +29,47 @@
   src: url("fonts/PTSans-700BoldItalic.woff2") format("woff2");
   font-display: swap;
 }
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #242424;
+  background-color: #FFFFFF;
+}
+ .page header {
+   color: #242424;
+   background-color: #FFFFFF;
+ }
+
+ .navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+ }
+
+ .main-index {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/background_sedona.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+ }
+
+ .caption {
+  text-align: center;
+ }
+
+ .caption-text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+ }
+
+ .caption-text-desk {
+  font-family: "PT Sans", sans-serif;
+ }
