@@ -109,9 +109,70 @@ body {
 
  .searche-hotel {
   font-family: "PT Sans", sans-serif;
-  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
   position: absolute;
+  color: #ffffff;
   background: #756157;
   border-radius: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
  }
 
+ .subscription {
+  background-image: url("../images/background_sedona_blur_1.jpg");
+  text-align: center;
+  width: 1200px;
+  height: 411px;
+  left: calc(50% - 1200px/2);
+  bottom: 120px;
+  background-size: 100% auto;
+ }
+
+ .subscription-button {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  position: absolute;
+  color: #ffffff;
+  background: #82B3D3
+  border-radius: 0px 10px 10px 0px;
+  text-decoration: none;
+  text-transform: uppercase;
+ }
+
+ .subscription-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+ }
+
+ .subscription-text-desk {
+  font-family: "PT Sans", sans-serif;
+ }
+
+ .page-footer {
+  color: #242424;
+  background-color: #ffffff;
+ }
+
+ .social {
+ color: #83B3D3;
+ }
+
+ .contacts-phone {
+  font-family: "PT Sans", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: #242424;
+  background-color: #FFFFFF;
+ }
+
+.htmlacademy-link {
+  color: #242424;
+}
