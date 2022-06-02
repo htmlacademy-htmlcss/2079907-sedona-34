@@ -40,10 +40,14 @@ body {
  .page header {
    color: #242424;
    background-color: #FFFFFF;
+   position: absolute;
+   height: 70px;
+   left: 40px;
+   right: 40px;
+   top: 0px;
  }
 
  .navigation-link {
-  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: #000000;
@@ -64,18 +68,13 @@ body {
  }
 
  .caption-text {
-  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
  }
 
- .caption-text-desk {
-  font-family: "PT Sans", sans-serif;
- }
 
  .reasons-title {
-  font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -86,7 +85,6 @@ body {
  }
 
  .reasons-description {
-  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -108,7 +106,6 @@ body {
  }
 
  .searche-hotel {
-  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -131,7 +128,6 @@ body {
  }
 
  .subscription-button {
-  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -144,14 +140,9 @@ body {
  }
 
  .subscription-title {
-  font-family: "PT Sans", sans-serif;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
- }
-
- .subscription-text-desk {
-  font-family: "PT Sans", sans-serif;
  }
 
  .page-footer {
@@ -164,7 +155,6 @@ body {
  }
 
  .contacts-phone {
-  font-family: "PT Sans", sans-serif;
   font-size: 40px;
   line-height: 40px;
   font-weight: 400;
@@ -173,6 +163,173 @@ body {
   background-color: #FFFFFF;
  }
 
-.htmlacademy-link {
+ .logo-footer {
   color: #242424;
-}
+ }
+
+ .inner-header-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: left;
+  color: #FFFFFF;
+  position: absolute;
+ }
+
+ .hotels-image {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/background_sedona_blur_2.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ }
+
+ .breadcrumbs-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+ }
+
+ .catalog-filter-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+ }
+
+ .control {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+ }
+
+ .hotels-choise-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+ }
+
+ .field {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+ }
+
+ .button-all {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #82B3D3;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+ }
+
+ .button-clean {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+ }
+
+ .catalog {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+ }
+ .select-control {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+ }
+
+ .product-card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+ }
+
+ .product-card {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+ }
+
+ .product-card-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #756157;
+  text-decoration: none;
+ }
+
+ .favorit-button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #82B3D3;
+  text-decoration: none;
+ }
+
+ .favorit-button-green {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #7DB54F;
+  text-decoration: none;
+ }
+
+ .product-card-big {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333
+  background: #F2F2F2;
+  text-decoration: none;
+ }
+
+ .pagination-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF
+  background: #82B3D3;
+  text-decoration: none;
+ }
+
+ .pagination-link pagination-current {
+  color: #333333
+  background: #F2F2F2;
+ }
