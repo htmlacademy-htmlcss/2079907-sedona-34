@@ -161,6 +161,7 @@ body {
   text-align: center;
   color: #242424;
   background-color: #FFFFFF;
+  text-decoration: none;
  }
 
  .logo-footer {
@@ -324,7 +325,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  color: #FFFFFF
+  color: #FFFFFF;
   background: #82B3D3;
   text-decoration: none;
  }
@@ -332,4 +333,23 @@ body {
  .pagination-link pagination-current {
   color: #333333
   background: #F2F2F2;
+ }
+
+ .hotels-choise {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+ }
+
+ .select-control {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+ }
+
+ .subscription-white {
+  background: #FFFFFF;
  }
