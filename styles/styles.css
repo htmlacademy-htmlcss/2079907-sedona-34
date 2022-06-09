@@ -30,21 +30,52 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   color: #242424;
   background-color: #FFFFFF;
 }
+
+header {
+  height: 70px;
+}
  .page header {
    color: #242424;
-   background-color: #FFFFFF;
+   background-color: #FFFFFF ;
    position: absolute;
-   height: 70px;
-   left: 40px;
-   right: 40px;
-   top: 0px;
+   height: 66px;
+ }
+
+ .logo {
+  display: block;
+  margin-left: 70px;
+ }
+
+ .navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+ }
+
+ .navigation-list {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+ }
+
+ .navigation-user {
+ max-width: 280px;
+ margin-left: auto;
  }
 
  .navigation-link {
@@ -53,6 +84,20 @@ body {
   color: #000000;
   text-align: center;
   text-decoration: none;
+ }
+
+ .main-container {
+  flex-grow: 1;
+ }
+
+ .logo-text {
+  display: block;
+  margin: 0 auto;
+ }
+
+ .page-container {
+  width: 1200px;
+  margin: 0 auto;
  }
 
  .main-index {
@@ -65,6 +110,9 @@ body {
 
  .caption {
   text-align: center;
+  background-image: url("../images/white_content.svg");
+  background-size: 1200px;
+  background-repeat: no-repeat;
  }
 
  .caption-text {
@@ -80,7 +128,7 @@ body {
   font-weight: 700;
 		}
 
- .reasons-block reasons-left {
+ .reasons-block .reasons-left {
   background-image: url("../images/sedona_city.jpg");
  }
 
@@ -133,7 +181,7 @@ body {
   font-weight: 700;
   position: absolute;
   color: #ffffff;
-  background: #82B3D3
+  background: #82B3D3;
   border-radius: 0px 10px 10px 0px;
   text-decoration: none;
   text-transform: uppercase;
@@ -315,7 +363,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #333333
+  color: #333333;
   background: #F2F2F2;
   text-decoration: none;
  }
@@ -330,8 +378,8 @@ body {
   text-decoration: none;
  }
 
- .pagination-link pagination-current {
-  color: #333333
+ .pagination-link .pagination-current {
+  color: #333333;
   background: #F2F2F2;
  }
 
