@@ -45,6 +45,16 @@ body {
   color: #242424;
   background-color: #FFFFFF;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 header {
   height: 70px;
@@ -100,19 +110,21 @@ header {
   margin: 0 auto;
  }
 
+ .main-container {
+  flex-grow: 1;
+ }
+
  .main-index {
   color: #000000;
   background-color: #ffffff;
   background-image: url("../images/background_sedona.jpg");
+  background-image: url("../images/white_content.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
  }
 
  .caption {
   text-align: center;
-  background-image: url("../images/white_content.svg");
-  background-size: 1200px;
-  background-repeat: no-repeat;
  }
 
  .caption-text {
