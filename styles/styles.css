@@ -56,13 +56,13 @@ body {
   overflow: hidden;
 }
 
-header {
-  height: 70px;
+.main-container {
+  flex-grow:1;
 }
+
  .page header {
    color: #242424;
    background-color: #FFFFFF ;
-   position: absolute;
    height: 66px;
  }
 
@@ -78,13 +78,13 @@ header {
  }
 
  .navigation-list {
-  width: 400px;
+  width: 430px;
   margin: 0;
   padding: 0;
  }
 
  .navigation-user {
- max-width: 280px;
+ max-width: 304px;
  margin-left: auto;
  }
 
@@ -96,6 +96,36 @@ header {
   text-decoration: none;
  }
 
+ .navigation-item-search {
+  width: 18px;
+  height: 18px;
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+ }
+
+ .navigation-item-favorites {
+  width: 18px;
+  height: 17px;
+  background-image: url("../images/favorites.svg");
+  background-repeat: no-repeat;
+ }
+
+ .header-button {
+  width: 160px;
+  height: 37px;
+  background: #756157;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+ }
+
  .main-container {
   flex-grow: 1;
  }
@@ -103,6 +133,7 @@ header {
  .logo-text {
   display: block;
   margin: 0 auto;
+  padding-top: 51px;
  }
 
  .page-container {
@@ -110,21 +141,18 @@ header {
   margin: 0 auto;
  }
 
- .main-container {
-  flex-grow: 1;
- }
-
  .main-index {
   color: #000000;
   background-color: #ffffff;
   background-image: url("../images/background_sedona.jpg");
-  background-image: url("../images/white_content.svg");
   background-size: 100% auto;
   background-repeat: no-repeat;
  }
 
  .caption {
   text-align: center;
+  color: #000000;
+  background-color: #ffffff;
  }
 
  .caption-text {
@@ -133,6 +161,10 @@ header {
   text-transform: uppercase;
  }
 
+
+ .reasons {
+  display: flex;
+ }
 
  .reasons-title {
   font-size: 24px;
@@ -284,7 +316,6 @@ header {
  }
 
  .button-all {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
