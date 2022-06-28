@@ -149,7 +149,12 @@ body {
   background-repeat: no-repeat;
  }
 
+ .title-page {
+  height: 485px;
+ }
+
  .caption {
+  height: 282px;
   text-align: center;
   color: #000000;
   background-color: #ffffff;
@@ -161,47 +166,78 @@ body {
   text-transform: uppercase;
  }
 
-
- .reasons {
-  display: flex;
- }
-
  .reasons-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
 		}
+  
+ .reasons-item {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .reasons-block-left {
+  height: 400px;
+  text-align: center;
+ }
+
+ .reasons-item-grid {
+  height: 384px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+ }
+
+ .reasons-subblock-house {
+  width: 400px;
+  background-image: url("../images/icon_house.svg");
+  background-repeat: no-repeat;
+ }
+
+ .reasons-subblock-food {
+  width: 400px;
+  background-image: url("../images/icon_food.svg");
+  background-repeat: no-repeat;
+ }
+
+ .reasons-subblock-gift {
+  width: 400px;
+  background-image: url("../images/icon_gift.svg");
+  background-repeat: no-repeat;
+ }
 
  .reasons-block .reasons-left {
   background-image: url("../images/sedona_city.jpg");
+ }
+
+ .reasons-block-rigth {
+  text-align: center;
  }
 
  .reasons-description {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
+  text-align: center;
  }
 
- .reasons-subblock-house {
-  background-image: url("../images/icon_house.svg");
-  background-repeat: no-repeat;
- }
-
- .reasons-subblock-food {
-  background-image: url("../images/icon_food.svg");
-  background-repeat: no-repeat;
- }
-
- .reasons-subblock-gift {
-  background-image: url("../images/icon_gift.svg");
-  background-repeat: no-repeat;
+ .caption-search {
+  height: 417px;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
  }
 
  .searche-hotel {
+  width: 574px;
+  height: 60px;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
-  position: absolute;
+  position: relative;
   color: #ffffff;
   background: #756157;
   border-radius: 4px;
@@ -217,6 +253,7 @@ body {
   left: calc(50% - 1200px/2);
   bottom: 120px;
   background-size: 100% auto;
+  margin: 0 auto;
  }
 
  .subscription-button {
