@@ -60,15 +60,15 @@ body {
   flex-grow:1;
 }
 
- .page header {
-   color: #242424;
-   background-color: #FFFFFF ;
-   height: 66px;
- }
+.page header {
+  color: #242424;
+  background-color: #FFFFFF ;
+  height: 66px;
+}
 
  .logo {
   display: block;
-  margin-left: 70px;
+  margin-right: 47px;
  }
 
  .navigation {
@@ -84,7 +84,7 @@ body {
  }
 
  .navigation-user {
- max-width: 304px;
+ max-width: 330px;
  margin-left: auto;
  }
 
@@ -166,11 +166,16 @@ body {
   text-transform: uppercase;
  }
 
+ .reasons {
+  margin: 0;
+  padding: 0;
+ }
+
  .reasons-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
-		}
+}
   
  .reasons-item {
   display: flex;
@@ -248,6 +253,7 @@ body {
  .subscription {
   background-image: url("../images/background_sedona_blur_1.jpg");
   text-align: center;
+  color: #ffffff;
   width: 1200px;
   height: 411px;
   left: calc(50% - 1200px/2);
@@ -279,8 +285,17 @@ body {
   background-color: #ffffff;
  }
 
+ .page-footer-container {
+  display: flex;
+  width: 1060px;
+  height: 120px;
+  margin: 0 auto;
+}
+
  .social {
  color: #83B3D3;
+ width: 200px;
+ margin-right: 250px;
  }
 
  .contacts-phone {
@@ -295,6 +310,8 @@ body {
 
  .logo-footer {
   color: #242424;
+  margin-left: auto;
+  max-width: 200px;
  }
 
  .inner-header-title {
