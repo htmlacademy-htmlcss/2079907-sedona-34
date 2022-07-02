@@ -325,16 +325,6 @@ body {
   max-width: 200px;
 }
 
-.inner-header-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 78px;
-  text-align: left;
-  color: #ffffff;
-  position: absolute;
-}
-
 .hotels-image {
   color: #000000;
   background-color: #ffffff;
@@ -346,7 +336,17 @@ body {
   align-items: flex-start;
 }
 
+.inner-header-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  text-align: left;
+  color: #ffffff;
+}
+
 .breadcrumbs-link {
+  padding-top: 123px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -354,10 +354,22 @@ body {
   color: #ffffff;
 }
 
+.hotels-condition {
+  width: 1060px;
+  margin: 0;
+  padding: 0;
+}
+
+.hotels-choise {
+  display: flex;
+  justify-content: space-between;
+}
+
 .catalog-filter-title {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
+  display: flex;
 }
 
 .control {
