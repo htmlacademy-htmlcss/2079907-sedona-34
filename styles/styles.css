@@ -71,6 +71,7 @@ body {
 }
 
 .navigation {
+  display: flex;
   width: 1060px;
   margin: 0 auto;
 }
@@ -370,6 +371,10 @@ body {
 .hotels-choise {
   display: flex;
   justify-content: space-between;
+}
+
+.catalog-column {
+ width: 1057px;
 }
 
 .catalog-filter-group {
